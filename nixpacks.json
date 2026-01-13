@@ -1,0 +1,8 @@
+{
+    "providers": ["php", "node"],
+    "phases": {
+      "setup": {
+        "aptPkgs": ["php8.2-gd", "php8.2-fileinfo"]
+      }
+    }
+  }
