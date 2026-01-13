@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Eyüp Sultan Menu</title>
+    <title>Restau Menu</title>
     <link rel="icon" href="{{ asset('logo.png') }}" type="image/png">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,7 +114,7 @@
                         <a href="{{ route('contact') }}" class="text-sm text-slate-500 hover:text-orange-600 transition-colors">Contactez-nous</a>
 
                     </div>
-                    <p class="text-center md:text-left text-xs leading-5 text-gray-500">&copy; {{ date('Y') }} Eyüp Sultan Menu. All rights reserved.</p>
+                    <p class="text-center md:text-left text-xs leading-5 text-gray-500">&copy; {{ date('Y') }} Restau Menu. All rights reserved.</p>
                 </div>
             </div>
         </footer>

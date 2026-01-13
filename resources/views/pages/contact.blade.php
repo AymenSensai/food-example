@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contactez-nous - Eyüp Sultan Menu</title>
+    <title>Contactez-nous - Restau Menu</title>
     <link rel="icon" href="{{ asset('logo.png') }}" type="image/png">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -67,7 +67,7 @@
         
         <!-- Reuse Footer Logic (Simplified) -->
         <footer class="bg-white border-t border-slate-200 mt-auto py-8 text-center text-sm text-slate-500">
-            &copy; {{ date('Y') }} Eyüp Sultan Menu. All rights reserved.
+            &copy; {{ date('Y') }} Restau Menu. All rights reserved.
         </footer>
     </div>
 </body>
