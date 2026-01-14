@@ -1,1 +1,1 @@
-<img src="{{ asset('logo.png') }}" alt="{{ config('app.name') }}" {{ $attributes }}>
+<img src="{{ asset('logo.png') }}?v={{ filemtime(public_path('logo.png')) }}" alt="{{ config('app.name') }}" {{ $attributes }}>
